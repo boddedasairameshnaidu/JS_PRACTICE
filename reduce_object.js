@@ -29,6 +29,7 @@ const fetchRepos = async () => {
     const langData = data.reduce((total,item)=>{
         const {language} = item;
         if(language) {
+            // total[language] tries to access the current count of the language in the total object.
             total[language] = total[language] + 1 || 1;
         }
         return total;
