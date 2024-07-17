@@ -3,7 +3,7 @@
 // Default - GET Requests, supports other methods as well
 // Return promise
 
-const url = 'https://www.course-api.com/react-tours-projec';
+const url = 'https://www.course-api.com/react-tours-project';
 // Syntax -- fetch(url)
 
 // Using Promises
